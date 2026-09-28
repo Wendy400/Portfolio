@@ -48,7 +48,7 @@ body {
     border: 1px solid #ddd;/* adds a light gray border around each portfolio item*/
     margin: 1em;
     padding: 0.5em;
-    box-shadow: 0 8px 8px white;/* adds a subtle shadow effect to each portfolio item,horizontal, vertical,blur,color*/
+    box-shadow: 0 4px 4px white;/* adds a subtle shadow effect to each portfolio item,horizontal, vertical,blur,color*/
     width: 30%;/* sets the width of each portfolio item to 30% of the container's width*/
     box-sizing: border-box;/* ensures that padding and border are included in the total width of the element*/
     transition: transform 0.3s;/* adds a smooth transition effect when the item is hovered over,transform property is used to scale the item up slightly on hover*/
@@ -115,7 +115,7 @@ h2{
 }
 
 .contact-link {
-    display: inline-flex;
+    display: inline-flex;/* allows the icon and text to be aligned horizontally without strict control unline display inline. you have full control of its dimensions */
     align-items: center;
     gap: 0.5em; /* adds space between the icon and the text */
     margin: 0.5em 1em;
